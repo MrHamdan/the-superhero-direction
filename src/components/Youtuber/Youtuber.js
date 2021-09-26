@@ -5,11 +5,11 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import './Youtuber.css';
 
 const Youtuber = (props) => {
-    // console.log(props)
     const { name, role, img, age, country, salary } = props.youtuber;
     const buttonCartIcon = <FontAwesomeIcon icon={faUserPlus} />
 
     return (
+        // Youtubers Card Section
         <div className="youtuber">
             <img src={img} alt="" />
             <h3>Name: {name}</h3>

@@ -18,7 +18,7 @@ const Usercart = (props) => {
             <h2>{salaryIcon} Total Salary: ${total}</h2>
             <ul>
                 {
-                    users.map(user => <div className="user-item-design">
+                    users.map(user => <div className="user-item-design" key={user.key}>
                         <div>
                             <img className="image-size" src={user.img} alt="" />
                         </div>

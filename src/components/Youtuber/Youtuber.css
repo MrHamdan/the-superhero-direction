@@ -1,3 +1,4 @@
+/* Youtuber card style */
 .youtuber{
     text-align: center;
     background-color: #c6d8dda1;
@@ -8,12 +9,14 @@
     box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
+/* Youtuber card hover style */
 .youtuber:hover{
     transform: scale(1.05);
     transition: ease-in   0.5s;
     transition: ease-out  0.5s;
 }
 
+/* Youtuber card image style */
 .youtuber img{
     width: 200px;
     height: 200px;
@@ -21,6 +24,7 @@
     box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
+/* youtuber card button style */
 .youtuber button {
     width: 200px;
     background-color: #45a369;
@@ -35,6 +39,8 @@
     box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
+
+/* Fontawesome Style */
 .fa-facebook-square{
     font-size:50px;
     color: 	#1298f6;

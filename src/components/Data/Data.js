@@ -7,13 +7,13 @@ const Data = () => {
     const [youtubers, setYoutubers] = useState([]);
 
     const [userCart, setUserCart] = useState([]);
-
+    // Fetch JSON Data
     useEffect(() => {
         fetch('./youtubers.JSON')
             .then(res => res.json())
             .then(data => setYoutubers(data))
     }, [])
-
+    // Button Handler
     const handleAddToCart = (youtuber) => {
         if (userCart.indexOf(youtuber) === -1) {
             const newCart = [...userCart, youtuber];
@@ -23,6 +23,7 @@ const Data = () => {
 
     return (
         <div className="data-container">
+            {/* User Container */}
             <div className="user-container">
                 {
                     youtubers.map(youtuber => <Youtuber
@@ -32,6 +33,7 @@ const Data = () => {
                     ></Youtuber>)
                 }
             </div>
+            {/* User Cart Container */}
             <div className="user-cart-container">
                 <Usercart userCart={userCart}></Usercart>
             </div>
