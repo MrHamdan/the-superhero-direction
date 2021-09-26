@@ -1,0 +1,39 @@
+.youtuber{
+    text-align: center;
+    background-color: #c6d8dda1;
+    padding: 30px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    color: black;
+}
+
+.youtuber img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.youtuber button {
+    width: 200px;
+    background-color: #dc3547;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.fa-facebook-square{
+    font-size:50px;
+    color: 	#1298f6;
+}
+
+
+.fa-twitter-square{
+    margin-left:30px;
+    font-size:50px;
+    color: #5da9dd;
+}

@@ -1,0 +1,21 @@
+.data-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.user-container{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.user-cart-container{
+    text-align: center;
+}
+
+.user-cart-container h2{
+    color: rgb(109, 109, 109);
+}
