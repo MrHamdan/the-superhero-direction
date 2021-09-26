@@ -2,20 +2,22 @@
     text-align: center;
     background-color: #c6d8dda1;
     padding: 30px;
-    border: 3px solid gray;
+    border: 1px solid gray;
     border-radius: 10px;
     color: black;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
 .youtuber img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
 .youtuber button {
     width: 200px;
-    background-color: #dc3547;
+    background-color: #45a369;
     font-size: 16px;
     line-height: 30px;
     font-weight: bolder;
@@ -24,11 +26,14 @@
     color: white;
     cursor: pointer;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
 }
 
 .fa-facebook-square{
     font-size:50px;
     color: 	#1298f6;
+    filter: drop-shadow(0px 1px 2px #575757);
+    cursor: pointer;
 }
 
 
@@ -36,4 +41,6 @@
     margin-left:30px;
     font-size:50px;
     color: #5da9dd;
+    filter: drop-shadow(0px 1px 2px #575757);
+    cursor: pointer;
 }
