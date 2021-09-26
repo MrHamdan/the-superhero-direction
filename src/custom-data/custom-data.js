@@ -106,5 +106,5 @@ const youtubers = [
         age: 35,
         country: "Canada",
         salary: 95000
-    },
+    }
 ];
