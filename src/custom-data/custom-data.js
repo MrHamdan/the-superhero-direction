@@ -61,5 +61,50 @@ const youtubers = [
         age: 22,
         country: "Norway",
         salary: 82000
-    }
+    },
+    {
+        key: "8",
+        name: "Dhar Mann",
+        role: "Influencer",
+        img: "https://pbs.twimg.com/profile_images/1072749367608496128/3FaSvzfE.jpg",
+        age: 37,
+        country: "United States",
+        salary: 60000
+    },
+    {
+        key: "9",
+        name: "Daria Smith",
+        role: "Model",
+        img: "https://yt3.ggpht.com/ytc/AAUvwnh5Km5Y6TJLf-hwgwGx_n7pbUg15wo3LRH7zUFi=s900-c-k-c0x00ffffff-no-rj",
+        age: 17,
+        country: "Argentina",
+        salary: 52000
+    },
+    {
+        key: "10",
+        name: "Topper Guild",
+        role: "Vloger",
+        img: "https://i.pinimg.com/originals/cf/0d/3c/cf0d3c548fe4ca1be1347df5fa157620.jpg",
+        age: 23,
+        country: "Australia",
+        salary: 22000
+    },
+    {
+        key: "11",
+        name: "Dan Rhodes",
+        role: "Magician",
+        img: "https://popslider.com/wp-content/uploads/2020/09/Dan-Rhodes.jpg",
+        age: 19,
+        country: "France",
+        salary: 5000
+    },
+    {
+        key: "12",
+        name: "Linus ",
+        role: "Tech Reviewer",
+        img: "https://pbs.twimg.com/media/Ea0QHYAUEAEUC3Q.png",
+        age: 35,
+        country: "Canada",
+        salary: 95000
+    },
 ];
