@@ -57,7 +57,7 @@ const youtubers = [
         key: "7",
         name: "Alan Walker",
         role: "Music Composer",
-        img: "http://pm1.narvii.com/7211/bb1196edca534a66cec04e2f2b8a6385d0533b64r1-736-736v2_uhq.jpg",
+        img: "https://pm1.narvii.com/7211/bb1196edca534a66cec04e2f2b8a6385d0533b64r1-736-736v2_uhq.jpg",
         age: 22,
         country: "Norway",
         salary: 82000
