@@ -1,10 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons';
 import './Usercart.css';
 
 const Usercart = (props) => {
     const userIcon = <FontAwesomeIcon icon={faUser} />
+    const salaryIcon = <FontAwesomeIcon icon={faMoneyBillAlt} />
     const { userCart } = props;
     const users = props.userCart;
     let total = 0;
@@ -14,7 +15,7 @@ const Usercart = (props) => {
     return (
         <div className="usercart">
             <h2>{userIcon} User Added: {props.userCart.length}</h2>
-            <h2>Total Salary: ${total}</h2>
+            <h2>{salaryIcon} Total Salary: ${total}</h2>
             <ul>
                 {
                     users.map(user => <div className="user-item-design">
