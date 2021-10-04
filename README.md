@@ -5,8 +5,10 @@ Please Visit This Site [YouTubers Analytics](https://nervous-shaw-ee798b.netlify
 ## About the project
 •	This is a simple react project.
 
-•	Functional component is used to make this project.
+• This project is building by React, React Router, React Bootstrap, React Rating.
 
-•	It's similar to make a club or ecommerce type site.
+• Functional Component is using to build this project.
 
-•   You can hire famous youtubers for yor company promotion or making them brand ambassador for your company profit.
+•	It's similar to make a club or e-commerce type site.
+
+• This project is Online Learning platform where you can buy course and learn anything you want.
